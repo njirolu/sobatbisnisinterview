@@ -7,7 +7,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
   imports: [
     ReactiveFormsModule,
     NgIf,
-    NgForOf
+    NgForOf,
 ],
   templateUrl: './my-form-component.html',
   styleUrl: './my-form-component.css'

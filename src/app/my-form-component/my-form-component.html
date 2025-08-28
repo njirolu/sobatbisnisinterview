@@ -9,7 +9,7 @@
       <input type="text" id="name" formControlName="name" placeholder="Enter Name" />
     </div>
 
-    <div *ngIf="hasNameRequiredError()">
+    <div *ngIf="hasNameRequiredError()" class="error-message">
       Name is requred
     </div>
 
